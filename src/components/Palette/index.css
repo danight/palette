@@ -1,0 +1,38 @@
+.palette {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.palette__item {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+.palette__item:first-child {
+    width: 350px;
+}
+.palette__item:last-child {
+    width: 40%;
+    align-self: center;
+    margin-left: 5%;
+}
+.random-color {
+    box-shadow: 0 0 3px #ddd;
+    font: small-caps bold 1.5em 'Trebuchet MS', Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+    background: #f4f4f4;
+    color: #84c4ff;
+    border: 1px solid transparent;
+}
+.random-color:active {
+    border-color: #84c4ff;
+}
+.palette__random-color {
+    height: 10%;
+    margin-top: 25%;
+}

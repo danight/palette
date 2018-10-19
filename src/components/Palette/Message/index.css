@@ -1,0 +1,14 @@
+.message {  
+    font: bold 1em 'Century Gothic', 'Gill Sans', sans-serif;
+    padding: 7px 25px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fcfcfc;
+    border: 1px solid #84c4ff;
+    border-top: none;
+    color: #84c4ff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}

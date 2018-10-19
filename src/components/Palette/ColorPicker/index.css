@@ -1,0 +1,14 @@
+.color-picker {
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+}
+.color-picker__slider:first-child .slider__thumb {
+    background: #ffa3a3;
+}
+.color-picker__slider:nth-child(2) .slider__thumb {
+    background: #a5ffa5;
+}
+.color-picker__slider:last-child .slider__thumb {
+    background: #84c4ff;
+}
