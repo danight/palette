@@ -40,7 +40,7 @@ export default class Root extends Component {
                 />
                 {!this.state.copy ? null :
                     <Message onHide={this.handleHide}>   
-                        Text have copied
+                        Text has copied
                     </Message>
                 }
             </>
